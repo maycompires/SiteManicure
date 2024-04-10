@@ -1,0 +1,172 @@
+/* Estilos personalizados aqui */
+
+/* Paleta de Cores */
+:root {
+    --primary-color: #001427; /* Azul escuro */
+    --secondary-color: #708d81; /* Verde acinzentado */
+    --background-color: #f4d58d; /* Amarelo claro */
+    --text-color: #bf0603; /* Vermelho escuro */
+    --accent-color: #8d0801; /* Vermelho escuro */
+  }
+  
+  /* Estilização do Header */
+  header {
+    /*background-color: var(--primary-color);*/
+    background-image: url(https://i.postimg.cc/wB6BpY7p/f26f34e5-e878-4687-896a-39b9fd791a01.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 100vh;
+    color: var(--background-color);
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 3.5rem;
+    color: white;
+    width: 70%;
+    margin-bottom: 0;
+  }
+  
+  header span {
+    font-size: 2rem;
+    color: var(--accent-color);
+  }
+  
+  /* Botão */
+  .btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5d6d67; /* Verde escuro */
+    border-color: #5d6d67;
+  }
+  
+  /* Estilização do Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 20px 0;
+  }
+  
+  /* Navegação */
+  .navbar {
+    background-color: var(--background-color);
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: var(--primary-color);
+  }
+  
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: var(--text-color);
+  }
+  
+  /* Seções */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Títulos das Seções */
+  section h2 {
+    color: var(--primary-color);
+  }
+  
+  /* Formulário */
+  .form-control {
+    border-color: var(--accent-color);
+  }
+  
+  /* Dicas e Cuidados */
+  #tips {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+  }
+  
+  /* Imagem do Salão */
+  .img-fluid {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Centralizar texto e botões */
+  #services .card-body,
+  #services .card-footer {
+    text-align: center;
+  }
+
+  #services .card-footer, button{
+    text-align: center;
+  }
+  
+
+  /* Aplicar border-radius nos cards */
+  #services .card {
+    border-radius: 10px;
+  }
+
+  /* Centralizar texto e botões */
+  #products .card-body,
+  #products .card-footer {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Aplicar border-radius nos cards */
+  #products .card {
+    border-radius: 10px;
+  }
+
+  #appointment .container {
+    max-width: 600px;
+    margin: 0 auto; /* Para centralizar horizontalmente */
+  }
+  
+  #appointment button {
+    display: block;
+    margin: 0 auto; /* Para centralizar o botão horizontalmente */
+  }
+  
+
+  #tips .col-lg-6 {
+    text-align: center;
+  }
+  
+  #cadastro .container {
+    max-width: 600px;
+    margin: 0 auto; /* Para centralizar horizontalmente */
+  }
+  
+  #cadastro button {
+    display: block;
+    margin: 0 auto; /* Para centralizar o botão horizontalmente */
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .btn-primary{
+    width: 120px;
+  }
+
+  .btn-primary-home{
+    width: 200px;
+  }
+
+  .btn-custom {
+    width: 200px;
+  }
+  
