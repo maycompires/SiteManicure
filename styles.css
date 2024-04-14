@@ -12,9 +12,10 @@
   /* Estilização do Header */
   header {
     /*background-color: var(--primary-color);*/
-    background-image: url(https://i.postimg.cc/wB6BpY7p/f26f34e5-e878-4687-896a-39b9fd791a01.jpg);
+    background-image: url(https://i.postimg.cc/2S0LsC0K/g13.png);
     background-repeat: no-repeat, repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     color: var(--background-color);
     padding: 100px 0;
@@ -23,14 +24,17 @@
     justify-content: space-around;
     align-items: center;
   }
-  
+
   header h1 {
     font-size: 3.5rem;
     color: white;
     width: 70%;
     margin-bottom: 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--accent-color);
+    font-size: 4em; color: white;
   }
-  
+
   header span {
     font-size: 2rem;
     color: var(--accent-color);
