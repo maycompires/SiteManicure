@@ -26,18 +26,22 @@
   }
 
   header h1 {
-    font-size: 3.5rem;
     color: white;
     width: 70%;
     margin-bottom: 0;
-    -webkit-text-stroke-width: 2px;
+    margin-top: 80px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: var(--accent-color);
     font-size: 4em; color: white;
+    font-weight: 800;
   }
 
   header span {
-    font-size: 2rem;
     color: var(--accent-color);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 3em; color: var(--accent-color);
+    font-weight: 800;
   }
   
   /* Botão */
@@ -159,7 +163,9 @@
   .card-footer {
     display: flex;
     justify-content: center;
+    background-color: white;
     width: auto;
+    padding: 0 0 20px 0;
   }
 
   .btn-primary{
