@@ -1,10 +1,8 @@
 # Studio Unhas & Cia
-
-Este é um site fictício para um estúdio de cuidados com unhas e mãos.
+O sistema foi desenvolvido para gerenciar as operações de um estúdio de cuidados com unhas e mãos. Ele permite aos usuários agendar serviços, comprar produtos, receber dicas de cuidados com as unhas, e se cadastrar para receber atualizações e ofertas especiais.
 
 ## Descrição
-
-Este site foi desenvolvido como parte de um projeto fictício para demonstrar habilidades de desenvolvimento web. Ele inclui várias seções, como:
+Este site foi desenvolvido como parte de um proje para demonstrar habilidades de desenvolvimento web. Ele inclui várias seções, como:
 
 - **Barra de navegação**: Para facilitar a navegação entre as diferentes partes do site.
 - **Cabeçalho**: Com um título principal e um slogan da empresa.
